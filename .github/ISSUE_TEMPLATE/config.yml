@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Launch TripDeck
+    url: https://tripdeck.ryanmarch.me
+    about: Open the live web app on your phone, tablet, or desktop
+  - name: Help Center
+    url: https://tripdeck.ryanmarch.me/docs/
+    about: Read user guides, FAQs, and feature documentation
