@@ -6,7 +6,7 @@
 
 <h1 align="center">TripDeck</h1>
 
-<p align="center"><em>Plan like a hacker. Travel like a pro.</em></p>
+<p align="center"><em>Trip planner and travel companion.</em></p>
 
 <p align="center">
   <a href="https://tripdeck.ryanmarch.me/">
@@ -16,87 +16,102 @@
 
 <p align="center">
   <a href="https://tripdeck.ryanmarch.me/">
-    <img src="https://tripdeck.ryanmarch.me/assets/screenshots/app-timeline-map.png" alt="TripDeck timeline, interactive map, and weather view" width="850">
+    <img src=".github/assets/app-timeline-map.png" alt="TripDeck itinerary builder with a day-by-day timeline, route map, and weather forecast" width="850">
   </a>
 </p>
 
-TripDeck turns flight confirmations, hotel bookings, and scattered travel notes into a clean, visual itinerary. Build your schedule in a visual timeline or in plain markdown with two-way sync. TripDeck pulls in flight status, venue details, destination weather, and interactive maps automatically, keeping every detail ready on your phone or laptop even when adventuring completely off-grid.
+TripDeck is a trip planner for people who are tired of juggling confirmation emails, notes apps, and spreadsheets. Build your schedule in a visual timeline or type it in plain text, and TripDeck fills in the maps, weather, flight times, and costs. It works on your phone, and it keeps working when your signal doesn't.
 
 ## Features
 
-### Build your itinerary in minutes
-Drag and drop flights, trains, hotels, reservations, and activities into a chronological schedule, or type freely in markdown. Switch back and forth anytime; changes in one view update the other instantly.
+### Build it visually or type it out
+Search for a place or drag flights, trains, hotels, reservations, and activities into a day-by-day schedule, or write the whole trip as plain text and paste it in. Both views edit the same itinerary, so you can switch whenever one is faster.
 
 <p align="center">
   <a href="https://tripdeck.ryanmarch.me/">
-    <img src="https://tripdeck.ryanmarch.me/assets/screenshots/markdown-editor.png" alt="Side-by-side markdown itinerary editor and timeline" width="850">
+    <img src=".github/assets/text-editor.png" alt="Trip written in plain text on the left, with the matching timeline and map on the right" width="850">
   </a>
 </p>
 
-### Live flight tracking and transit routes
-Enter a flight number to fetch gates, terminals, baggage claim carousels, and departure countdowns. Live flight status uses dual-provider failover, backed by a persistent schedule cache that keeps your route visible when airport Wi-Fi drops. Every stop plots automatically on Mapbox maps with transit route geometries.
+### See the whole trip at a glance
+Every stop lands on the map automatically, each day shows its forecast, and a countdown ticks toward your next flight or check-in. Enter a flight number and TripDeck fills in the route and times. Add a restaurant or attraction and it pulls in opening hours, a phone number, and a website. TripDeck also warns you about tight connections and gives you directions links for each stop.
+
+### Pack for the weather you'll actually get
+Check the hourly and 7-day forecast for every stop on your route, along with wind, UV, air quality, and a radar view. TripDeck suggests what to bring based on your plans and the weather, and you can save your own lists to reuse on the next trip.
 
 <p align="center">
   <a href="https://tripdeck.ryanmarch.me/">
-    <img src="https://tripdeck.ryanmarch.me/assets/screenshots/mobile-map-view.png" alt="Interactive mobile map overview showing route stops" width="400">
+    <img src=".github/assets/packing-list.png" alt="Packing list drawer with checked-off items grouped by category" width="850">
   </a>
 </p>
 
-### Smarter packing and weather forecasts
-Check 7-day and hourly weather forecasts for every destination on your route. TripDeck reviews your scheduled stops and local weather to recommend packing checklists, with support for custom reusable packing templates.
+### Keep an eye on spending
+Add a cost to any event, set a budget, and see totals by day and by category. Costs in other currencies are converted using European Central Bank rates, and you can export everything as a CSV for expense reports.
 
 <p align="center">
   <a href="https://tripdeck.ryanmarch.me/">
-    <img src="https://tripdeck.ryanmarch.me/assets/screenshots/packing-deck.png" alt="TripDeck packing checklist drawer with categorized travel gear" width="850">
+    <img src=".github/assets/budget-panel.png" alt="Trip budget panel showing total spend against a budget, a breakdown by currency and category, and a day-by-day expense log" width="850">
   </a>
 </p>
 
-### Track spending across currencies
-Tag costs directly inside your notes (such as `Cost: 120 EUR`) or set a total budget target. TripDeck tallies spending by day, converts foreign currencies automatically using official ECB exchange rates, and exports clean CSV summaries for expense reports.
+### Share a trip without sharing everything
+Send a view-only link that leaves out confirmation numbers, notes, and ideas. Or send a collaboration link so travel companions can edit alongside you. Trips are fully end-to-end encrypted.
+
+### Take it on paper
+The Pocket Guide turns your itinerary into a clean printable agenda or PDF. Choose what goes on it: costs, confirmation numbers, notes, addresses, your packing list, a map, or a QR code that opens the live trip.
 
 <p align="center">
   <a href="https://tripdeck.ryanmarch.me/">
-    <img src="https://tripdeck.ryanmarch.me/assets/screenshots/budget-categories-and-currencies.png" alt="Budget summary panel showing currency conversions and expense breakdowns" width="850">
+    <img src=".github/assets/pocket-guide.png" alt="Pocket Guide print preview with toggles for costs, confirmation numbers, notes, and addresses" width="850">
   </a>
 </p>
 
-### Mood boards and research capture
-Collect bookmarks, hotel listings, and dining recommendations in a visual pinboard with automatic link preview extraction. Move any saved note directly into your scheduled timeline with a single click.
-
-### Share securely without giving away private details
-Generate zero-knowledge encrypted links to share plans with friends or travel companions. View-only links automatically strip confirmation numbers, seat assignments, gate details, and private notes, while collaborator links allow full planning together with conflict resolution.
+### On your phone, your way
+On a phone, enjoy an easy-to-use tab bar for the timeline, the map, the packing list, and your notes. Pick a look that suits you, from the bright Roadtrip default to Vintage Journal and more themes to choose from.
 
 <p align="center">
   <a href="https://tripdeck.ryanmarch.me/">
-    <img src="https://tripdeck.ryanmarch.me/assets/screenshots/share-modal.png" alt="Trip sharing modal with view-only and collaborator options" width="600">
+    <img src=".github/assets/mobile-themes.png" alt="TripDeck timeline on a phone in the Roadtrip theme and the Vintage Journal theme" width="600">
   </a>
 </p>
 
-### Printable Pocket Guide
-Export a clean, distraction-free printed agenda or PDF with custom QR codes that link directly back to your live digital itinerary, maps, and packing checklists.
+### Collect ideas before you commit
+Save links, hotel listings, and restaurant recommendations to a notes board. Links show a preview, and you can search your notes and move any of them onto the schedule with a click.
 
 <p align="center">
   <a href="https://tripdeck.ryanmarch.me/">
-    <img src="https://tripdeck.ryanmarch.me/assets/screenshots/print-preview.png" alt="Printable Pocket Guide itinerary layout" width="600">
+    <img src=".github/assets/notes-board.png" alt="Notes board with link previews, a note form, and a search box" width="850">
   </a>
 </p>
 
 ### The little things
 
-- Retro split-flap countdown ticker for your next departure
-- Eight visual themes including Slate Dark, Vintage Journal, Terminal Light, and Roadtrip
-- Fast guest mode with zero signup required
-- Passwordless multi-device sync via WebAuthn passkeys
-- Client-side AES-GCM-256 encryption on all stored itineraries
-- Offline-first architecture with full Service Worker caching
-- Date shifting tool to move entire trip legs forward or backward
-- Quick capture browser bookmarklet for travel research
-- Standalone lists manager for master gear and packing templates
-- Venue operating hours, phone numbers, and ratings via Google Places and HERE Technologies
+- Themes including Roadtrip, Slate Dark, Vintage Journal, Terminal Light, Velocity, and Start95.
+- A split-flap countdown to your next departure
+- Passkey sign-in to sync across your devices
+- Keep several trips and find them again with search and sorting
+- Shift every date in a trip forward or back at once
+- Keyboard shortcuts for the things you do most
+- A recovery key, so you're never locked out of your own trips
+- Reusable packing lists and other lists
+- A bookmarklet for saving travel research as you browse
+- Venue hours, phone numbers, and ratings
+- Offline access once the app has loaded
+
 
 ## How it's built
 
-TripDeck is built with semantic HTML5, modern CSS custom properties, and vanilla ES6+ JavaScript modules. It uses zero client frameworks, zero bundlers, and zero heavy runtime dependencies. Edge APIs, third-party proxying, and encrypted synchronization run on Cloudflare Workers and Cloudflare Pages Functions with D1 SQLite storage.
+TripDeck is plain HTML, modern CSS, and vanilla JavaScript modules, with no heavy frontend framework or bundler.
+
+That means the app loads lightning fast, and it stays fast even on spotty wifi.
+
+## Privacy-first
+
+TripDeck believes in dignity and privacy. Your trips are stored in an encrypted format, and can only be seen by you and those you share with. No one, not even the developers, can access your trip data. Learn more in our [Terms & Privacy Policy](https://tripdeck.ryanmarch.me/terms.html).
+
+## Help & Documentation
+
+New to TripDeck? The [Help Center](https://tripdeck.ryanmarch.me/docs/) has guides for building a trip, writing in the text editor, budgets, packing lists, sharing, the Pocket Guide, passkeys, and working offline.
 
 ## Community & Feedback
 
@@ -122,4 +137,4 @@ TripDeck relies on the following third-party APIs, services, and open-source lib
 
 ---
 
-<p align="center">© 2026 Ryan March · <a href="https://ryanmarch.me">ryanmarch.me</a></p>
+<p align="center">© 2026 Ryan March · <a href="https://ryanmarch.me">ryanmarch.me</a> <br/> <a href="https://tripdeck.ryanmarch.me/terms.html">Terms &amp; Privacy</a></p>
