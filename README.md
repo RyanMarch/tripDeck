@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://tripdeck.ryanmarch.me/">
-    <img src="https://tripdeck.ryanmarch.me/assets/btn-try-tripdeck.svg" alt="Try TripDeck →" height="42">
+    <img src=".github/assets/btn-try-tripdeck.svg" alt="Try TripDeck →" height="42">
   </a>
 </p>
 
